@@ -93,3 +93,6 @@
 <ul>
   <li>SQL</li>
 </li>
+
+<h2>Novelty</h2>
+
