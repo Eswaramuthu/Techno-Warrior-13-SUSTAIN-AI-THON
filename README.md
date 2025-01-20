@@ -94,5 +94,9 @@
   <li>SQL</li>
 </li>
 
-<h2>Novelty</h2>
+<h2>Novelty:</h2>
+<p>Our platform stands out by offering a seamless combination of mood tracking and personalized mental health recommendations, powered by user-friendly design and evidence-based insights. Unlike generic tools, it focuses on proactive well-being with tailored suggestions and progress tracking to ensure a personalized and impactful experience.</p>
+
+<h2>Solution:</h2>
+<p>Our platform introduces AI-driven mood pattern analysis and personalized recommendations, combined with gamified progress tracking to motivate users. Additionally, it integrates with wearable devices to provide holistic insights and features a proactive alert system to support users during potential mental health crises.</p>
 
