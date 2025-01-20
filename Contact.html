@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Psychiatrists</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <div class="contact-container">
+        <h1>Contact Our Psychiatrists</h1>
+        <p>We have a team of experienced psychiatrists ready to help. Browse through the list below and get in touch with a professional that suits your needs.</p>
+
+        <!-- Psychiatrists List -->
+        <ul class="psychiatrist-list">
+            <li class="psychiatrist-card">
+                <h2>Dr. John Doe</h2>
+                <p>Specialization: Anxiety, Depression</p>
+                <button class="details-btn" onclick="showDetails('john')">View Details</button>
+                <div id="john" class="psychiatrist-details" style="display:none;">
+                    <p><strong>Experience:</strong> 10 years of experience in treating anxiety and depression.</p>
+                    <p><strong>Location:</strong> 123 Wellness Street, City, Country</p>
+                    <p><strong>Contact:</strong> johndoe@example.com | +1234567890</p>
+                </div>
+            </li>
+
+            <li class="psychiatrist-card">
+                <h2>Dr. Jane Smith</h2>
+                <p>Specialization: Stress Management, Sleep Disorders</p>
+                <button class="details-btn" onclick="showDetails('jane')">View Details</button>
+                <div id="jane" class="psychiatrist-details" style="display:none;">
+                    <p><strong>Experience:</strong> 8 years specializing in stress management and sleep disorders.</p>
+                    <p><strong>Location:</strong> 456 Healing Road, City, Country</p>
+                    <p><strong>Contact:</strong> janesmith@example.com | +0987654321</p>
+                </div>
+            </li>
+
+            <li class="psychiatrist-card">
+                <h2>Dr. Alice Brown</h2>
+                <p>Specialization: Child Psychiatry, ADHD</p>
+                <button class="details-btn" onclick="showDetails('alice')">View Details</button>
+                <div id="alice" class="psychiatrist-details" style="display:none;">
+                    <p><strong>Experience:</strong> Over 12 years working with children and adolescents.</p>
+                    <p><strong>Location:</strong> 789 Care Avenue, City, Country</p>
+                    <p><strong>Contact:</strong> alicebrown@example.com | +1122334455</p>
+                </div>
+            </li>
+        </ul>
+        <p>Have a Anonymous Consultation With Our Specialist</p>
+        <a href="http://localhost:3000" target="_blank">Click Here</a>
+    </div>
+    <script src="js/contact.js"></script>
+</body>
+</html>

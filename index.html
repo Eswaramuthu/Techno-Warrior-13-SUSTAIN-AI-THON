@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous One-on-One Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Join a Chat Room</h2>
+    <input id="room-name" type="text" placeholder="Enter Room Name (e.g., 'psychiatrist1')" autofocus>
+    <button id="join-room-button">Join Room</button>
+    <div id="Errormsg"></div>
+</div>
+
+<div class="chat-container" style="display: none;">
+    <div class="chat-box">
+        <div id="messages"></div>
+    </div>
+    <input id="message-input" type="text" placeholder="Type your message..." autofocus>
+    <button id="send-button">Send</button>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

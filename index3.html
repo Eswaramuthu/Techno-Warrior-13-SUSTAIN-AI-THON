@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Survey</title>
+    <link rel="stylesheet" href="body3.css">
+</head>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+<body>
+    <!-- 3D Animation Container -->
+    <div id="breakingbad"></div>
+
+    <!-- Instructions Section -->
+    <div id="instruccions">
+        <h1>Welcome to the Survey</h1>
+        <span>Hold down the click to transform!</span>
+        
+    </div>
+
+    <!-- Start Button Section -->
+    <div id="start-button-container">
+        <button id="start-button">Start</button>
+    </div>
+
+    <!-- Social Links Section -->
+    <div id="social">
+        <a href="https://github.com/kevoj" target="_blank">-_- </a>
+    </div>
+
+    <!-- Include Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Link to the JavaScript File -->
+    <script src="script3.js"></script>
+
+    <script>
+        // Add event listener for the "Start" button click to navigate to the survey form page
+        document.getElementById('start-button').addEventListener('click', function() {
+            window.location.href = 'index2.html'; // Redirect to survey form page
+        });
+    </script>
+</body>
+</html>
